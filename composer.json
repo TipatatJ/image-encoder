@@ -1,0 +1,23 @@
+{
+  "name": "joeldbirch/image-encoder",
+  "type": "library",
+  "license": "UNLICENSED",
+  "authors": [
+    {
+      "name": "Joel Birch",
+      "email": "joeldbirch@gmail.com"
+    }
+  ],
+  "autoload": {
+    "classmap": [
+      "src/"
+    ]
+  },
+  "scripts": {
+    "test": "phpunit --colors=always --bootstrap vendor/autoload.php --testdox tests/ImageEncoderTest"
+  },
+  "require": {},
+  "require-dev": {
+    "phpunit/phpunit": "^7"
+  }
+}
